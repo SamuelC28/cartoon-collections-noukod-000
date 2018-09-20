@@ -1,7 +1,6 @@
-dwarf_names = Array.new(7,)
+# dwarf_names = Array.new(7,)
 
 def roll_call_dwarves(dwarf_names)
-
   dwarf_names.each_with_index do |element, index|
     puts"#{index} #{element}"
   end
