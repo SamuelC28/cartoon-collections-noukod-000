@@ -1,10 +1,12 @@
 # dwarf_names = Array.new(7,)
 
 def roll_call_dwarves(dwarf_names)
+
   dwarf_names.each_with_index do |element, index|
-    puts"#{index} #{element}"
+    puts "#{index} #{element}"
   end
 end
+roll_call_dwarves(dwarf_names)
 
 def summon_captain_planet# code an argument here
   # Your code here
